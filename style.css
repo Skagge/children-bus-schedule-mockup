@@ -1,0 +1,131 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #269bd2;
+}
+
+.container {
+    height: 100%;
+}
+
+#clock {
+    position: absolute;
+    top: 3%;
+    left: 10%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 10px 15px 10px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#thermometer {
+    position: absolute;
+    color: white;
+    font-size: 5rem;
+    top: 15%;
+    left: 3%;
+}
+
+#description-one {
+    position: absolute;
+    color: white;
+    font-size: 3rem;
+    top: 15%;
+    left: 30%;
+}
+
+#description-two {
+    position: absolute;
+    color: white;
+    font-size: 2rem;
+    top: 19%;
+    left: 30%;
+}
+
+#sun {
+    position: absolute;
+    top: 5%;
+    right: -7%;
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+#sun-two {
+    position: absolute;
+    top: 3%;
+    right: -9%;
+    width: 200px;
+    height: 200px;
+    background-color: #d8d8be;
+    border-radius: 50%;
+    opacity: 20%;
+}
+
+#sun-three {
+    position: absolute;
+    right: -15%;
+    width: 300px;
+    height: 300px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    opacity: 5%;
+}
+
+div > div:first-child {
+    height: 30%;
+}
+
+div > div:last-child {
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#schedule {
+    position: relative;
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+#schedule .header {
+    position: absolute;
+    top: -3%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 30px 10px 30px;
+    background-color: yellow;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#schedule .arrivals-list {
+    display: block;
+    margin-top: 50px;
+    height: calc(100% - 50px);
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    width: 90%;
+    background-color: inherit;
+}
+
+#schedule .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    height: auto;
+    font-size: 2.5rem;
+    padding: 15px 15px 15px 25px;
+    margin: 10px;
+}
