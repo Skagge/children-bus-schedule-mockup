@@ -5,6 +5,14 @@ document.addEventListener('DOMContentLoaded', function() {
         return Math.floor(Math.random() * (max - min + 1)) + min;
     }
 
+    function getTheBus() {
+        const numbers = [75, 98, 112, 135];
+        const randomIndex = Math.floor(Math.random() * numbers.length);
+        return numbers[randomIndex];
+    }
+
+    console.log(getRandomInt());
+
     function interpolateColor(color1, color2, factor) {
         const result = color1.slice();
         for (let i = 0; i < 3; i++) {
@@ -32,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
         row.style.backgroundColor = rgbToHex(color);
 
         const intPart = document.createElement('span');
-        intPart.textContent = getRandomInt(129, 520);
+        intPart.textContent = getTheBus().toString();
 
         const stringPart = document.createElement('span');
         stringPart.textContent = `za ${stringParts[i]} min`;

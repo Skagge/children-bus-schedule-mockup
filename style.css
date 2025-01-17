@@ -22,24 +22,24 @@ body, html {
 #thermometer {
     position: absolute;
     color: white;
-    font-size: 5rem;
-    top: 15%;
-    left: 3%;
+    font-size: 200%;
+    top: 18%;
+    left: 6%;
 }
 
 #description-one {
     position: absolute;
     color: white;
-    font-size: 3rem;
-    top: 15%;
+    font-size: 150%;
+    top: 18%;
     left: 30%;
 }
 
 #description-two {
     position: absolute;
     color: white;
-    font-size: 2rem;
-    top: 19%;
+    font-size: 150%;
+    top: 22%;
     left: 30%;
 }
 
@@ -47,18 +47,18 @@ body, html {
     position: absolute;
     top: 5%;
     right: -7%;
-    width: 150px;
-    height: 150px;
+    width: 90px;
+    height: 90px;
     background-color: yellow;
     border-radius: 50%;
 }
 
 #sun-two {
     position: absolute;
-    top: 3%;
-    right: -9%;
-    width: 200px;
-    height: 200px;
+    /*top: -3%;*/
+    right: -15%;
+    width: 160px;
+    height: 160px;
     background-color: #d8d8be;
     border-radius: 50%;
     opacity: 20%;
@@ -66,9 +66,10 @@ body, html {
 
 #sun-three {
     position: absolute;
-    right: -15%;
-    width: 300px;
-    height: 300px;
+    top: -2%;
+    right: -18%;
+    width: 200px;
+    height: 200px;
     background-color: #ffffff;
     border-radius: 50%;
     opacity: 5%;
@@ -105,7 +106,7 @@ div > div:last-child {
     border-radius: 30px;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 100%;
 }
 
 #schedule .arrivals-list {
@@ -125,7 +126,7 @@ div > div:last-child {
     align-items: center;
     border-radius: 30px;
     height: auto;
-    font-size: 2.5rem;
+    /*font-size: 100%;*/
     padding: 15px 15px 15px 25px;
     margin: 10px;
 }
